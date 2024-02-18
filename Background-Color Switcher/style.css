@@ -15,6 +15,7 @@ body {
 
 span {
     display: block;
+    cursor: pointer;
 }
 
 .canvas {
