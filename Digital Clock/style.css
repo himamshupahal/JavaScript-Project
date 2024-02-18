@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: greenyellow; 
+    color: black;
+}
+@media screen {
+    
+span{
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+}
+
+.center {
+  display: flex;    
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#clock {
+    background-color: orange;
+    font-size: 60px;
+    padding: 20px 50px ;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 0 8px yellow;
+}
+
+}
